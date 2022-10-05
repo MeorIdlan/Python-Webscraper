@@ -1,0 +1,12 @@
+[
+    {
+        "query": "RX6600XT",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 1300,
+        "maxPrice": 1400,
+        "brand": ["asus","gigabyte","asrock","sapphire"],
+        "minRatingCount": 0,
+        "site": "both"
+    }
+]

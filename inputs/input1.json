@@ -1,0 +1,20 @@
+[
+    {
+        "query": "RX6600",
+        "stars": 4,
+        "pages": 1,
+        "brand": ["asus","sapphire","gigabyte","asrock"],
+        "minPrice": 1000,
+        "maxPrice": 1400,
+        "site": "lazada"
+    },
+    {
+        "query": "intel i5 12400F",
+        "stars": 4,
+        "pages": 1,
+        "brand": ["intel"],
+        "minPrice": 700,
+        "maxPrice": 900,
+        "site": "shopee"
+    }
+]

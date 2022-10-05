@@ -1,0 +1,92 @@
+[
+    {
+        "query": "RX6600XT",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 1300,
+        "maxPrice": 1400,
+        "brand": ["asus","gigabyte","asrock","sapphire"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "i5 12400F",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 770,
+        "maxPrice": 900,
+        "brand": ["intel"],
+        "minRatingCount": 5,
+        "site": "both"
+    },
+    {
+        "query": "motherboard b660",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 540,
+        "maxPrice": 650,
+        "brand": ["asus","gigabyte","asrock","msi"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "ram 8gb ddr4 desktop",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 100,
+        "maxPrice": 150,
+        "brand": ["kingston","hyperx","corsair","g skill","crucial"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "power supply 450",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 155,
+        "maxPrice": 250,
+        "brand": ["corsair","silverstone","nzxt","evga"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "s100 thermaltake",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 150,
+        "maxPrice": 200,
+        "brand": ["thermaltake"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "pure rock 2",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 160,
+        "maxPrice": 170,
+        "brand": ["be quiet"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "m2 nvme ssd",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 110,
+        "maxPrice": 200,
+        "brand": ["samsung", "crucial", "western digital", "kingston"],
+        "minRatingCount": 0,
+        "site": "both"
+    },
+    {
+        "query": "hdd 2tb",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 140,
+        "maxPrice": 200,
+        "brand": ["western digital", "seagate", "toshiba"],
+        "minRatingCount": 0,
+        "site": "both"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "query": "pure rock 2",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 100,
+        "maxPrice": 170,
+        "brand": ["be quiet"],
+        "minRatingCount": 0,
+        "site": "both"
+    }
+]
