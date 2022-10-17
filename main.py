@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 
 def main():
     # open an input file
-    jsonFile = open(f'./inputs/input4.json')
+    jsonFile = open(f'./inputs/input10.json')
     queries = json.loads(jsonFile.read())
     jsonFile.close()
 

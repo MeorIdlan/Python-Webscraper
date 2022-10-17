@@ -1,5 +1,6 @@
 import os
 import datetime
+from playsound import playsound
 
 def createCSV(df,query):
     currDir = os.getcwd()
@@ -17,3 +18,9 @@ def createCSV(df,query):
 
     dataFileName = os.path.join(dayDir, f'items-{query}.csv')
     df.to_csv(dataFileName, index=False, encoding='utf8')
+
+def notify():
+    currDir = os.getcwd()
+    soundDir = 'assets/sound/pop.wav'
+    fullPath = os.path.join(currDir, soundDir)
+    playsound(fullPath)

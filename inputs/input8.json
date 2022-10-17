@@ -1,0 +1,12 @@
+[
+    {
+        "query": "motherboard b660",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 500,
+        "maxPrice": 650,
+        "brand": ["asus","gigabyte","asrock","msi"],
+        "minRatingCount": 0,
+        "site": "shopee"
+    }
+]
