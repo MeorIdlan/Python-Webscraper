@@ -11,8 +11,7 @@ def extractItem(page,urls,q):
             page.goto(url)
             page.wait_for_timeout(5 * 1000)
             while '/login?' in page.url:
-                page.goto(url)
-                page.wait_for_timeout(5 * 1000)
+                page.wait_for_timeout(60 * 1000)
         except:
             continue
 
@@ -100,6 +99,9 @@ def itemCheckPrice(itemPrice, q):
     return True
 
 def itemCheckRatings(itemRatingCount, q):
+    if 'k' in itemRatingCount:
+        itemRatingCount = float(itemRatingCount.replace('k','')) * 1000
+
     if int(itemRatingCount) < q['minRatingCount']:
         print('Not within minimum rating counts.')
         return False

@@ -36,15 +36,21 @@ def extractUrlShopee(page, q, brands):
         full_url = f'{base_url}&page{i}'
         try:
             page.goto(full_url)
+            page.wait_for_timeout(5 * 1000)
+            try:
+                page.locator('.shopee-search-empty-result-section__title', has_text='No results found').click(timeout=3*1000, trial=True)
+                return []
+            except:
+                pass
         except:
             print('Something went wrong while opening the page. Continuing to next page.')
             continue
 
-        for _ in range(4):
+        for _ in range(5):
             page.mouse.wheel(0,1500)
             page.wait_for_timeout(5 * 1000)
 
-        all_items = page.locator('//div[@class="col-xs-2-4 shopee-search-item-result__item"]')
+        all_items = page.locator('.shopee-search-item-result__item')
         for j in range(all_items.count()):
             urls.append(f'https://www.shopee.com.my{all_items.nth(j).locator("a").get_attribute("href")}')
 

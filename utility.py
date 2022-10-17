@@ -2,6 +2,22 @@ import os
 import datetime
 from playsound import playsound
 
+def getInputFile():
+    currDir = os.getcwd()
+    inputDir = os.path.join(currDir, 'inputs')
+    files = os.listdir(inputDir)
+
+    print('Please select a file as input for the webscraper:')
+    for i,f in enumerate(files):
+        print(f'{i+1}. {f}')
+    select = int(input('Select a file (0 to cancel)(ex: 1): '))
+    while select < 0 or select > len(files):
+        select = int(input('Select a file (0 to cancel)(ex: 1): '))
+
+    if select != 0:
+        return files[select-1]
+    return ''
+
 def createCSV(df,query):
     currDir = os.getcwd()
     dataDirectoryName = 'data'

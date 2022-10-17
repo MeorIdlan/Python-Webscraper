@@ -1,0 +1,12 @@
+[
+    {
+        "query": "ram 8gb ddr4 desktop",
+        "stars": "4",
+        "pages": 1,
+        "minPrice": 80,
+        "maxPrice": 150,
+        "brand": ["kingston","hyperx","corsair","g skill","crucial"],
+        "minRatingCount": 0,
+        "mustHitTags": ["ddr4", "desktop"]
+    }
+]
